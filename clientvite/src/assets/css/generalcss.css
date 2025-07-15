@@ -1,0 +1,12 @@
+.main-container{
+  background-color: rgb(218, 241, 233);
+  color :black;
+  padding : 1em 1em;
+  margin : 0 1em;
+  border-radius: 10px;
+}
+.container-title{
+  background-color: azure;
+  color : blue;
+  font-size: 20px;
+}

@@ -1,0 +1,57 @@
+-go to backendfolder
+-create virtualenv
+virtualenv project_env
+-activate virtual
+
+
+-install django
+pip install django
+-install djangoframework
+pip install djangorestframework
+
+-create project
+django-admin startproject myproject .
+
+ pip freeze > requirements.txt
+
+
+
+python manage.py runserver
+#pip install python-decouple  -> used for config('DB_NAME')
+- add this in settings
+from decouple import config
+import os
+
+
+
+pip install PyMySQL
+pip install cryptography
+
+- add in init
+in __init__.py main
+import pymysql
+pymysql.install_as_MySQLdb()     
+
+-- create .env
+
+-create app
+python manage.py startapp app_api3
+python manage.py startapp app_posts
+
+python manage.py startapp app_products
+python manage.py startapp app_users
+python manage.py startapp app_auth
+python manage.py startapp app_api
+python manage.py startapp app_students
+python manage.py startapp app_employees
+
+python manage.py startapp api_ViewSetsEmployees
+python manage.py startapp api_Blogs
+
+by caleb curry
+https://www.youtube.com/watch?v=i5JykvxUk_A&t=9s
+python manage.py startapp app_drinks
+
+pip install django-rest-auth
+
+pip install django-filter
