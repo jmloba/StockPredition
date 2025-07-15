@@ -1,0 +1,5 @@
+
+git add .
+git commit -M "commit message"
+
+git push -u origin main
