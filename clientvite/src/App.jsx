@@ -2,15 +2,21 @@ import { useState } from 'react'
 
 import './assets/css/generalcss.css'
 
+import TestPage from './components/TestPage'
+import Header from './components/Header'
+import Main from './components/Main'
+import Footer from './components/Footer'
+
 function App() {
   
 
   return (
     <>
-    <div className='main-container'>
-      <h3 className='container-title'>Title</h3>
-    </div>
-     
+    
+      <Header/>
+      <Main/>
+      <Footer/>
+ 
     </>
   )
 }

@@ -1,12 +1,20 @@
-.main-container{
-  background-color: rgb(218, 241, 233);
-  color :black;
-  padding : 1em 1em;
-  margin : 0 1em;
+body{
+  background-color: #212529;
+  /* background-color: #e2eaf3; */
+}
+#root{
+display:flex;
+flex-direction: column;
+min-height: 100vh;
+}
+.bg-light-blue{
+  background-color: rgba(245, 241, 236, 0.311);
   border-radius: 10px;
 }
-.container-title{
-  background-color: azure;
-  color : blue;
-  font-size: 20px;
+.container{
+  flex:1;
+}
+.myfooter{
+  background-color: rgb(102, 60, 5);
+  color :rgb(241, 232, 232)
 }

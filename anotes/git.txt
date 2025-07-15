@@ -1,5 +1,6 @@
 
 git add .
+git branch -M main
 git commit -M "commit message"
 
 git push -u origin main

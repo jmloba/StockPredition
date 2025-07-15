@@ -1,0 +1,14 @@
+not to use npx
+go to https://vitejs.dev
+https://vite.dev/guide/
+
+
+npm create vite@latest
+
+-go to clientvite terminal
+npm install
+npm run dev
+
+
+- install bootstrap
+use bootstrap cdn
