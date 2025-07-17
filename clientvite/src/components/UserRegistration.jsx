@@ -1,6 +1,8 @@
 import React,{useState} from 'react'
+
 import axios from 'axios'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 import {faSpinner} from '@fortawesome/free-solid-svg-icons'
 
 
@@ -48,7 +50,7 @@ const UserRegistration = () => {
     <div className='container main-container'>
       <div className="row   justify-content-center">
         <div className="col-md-6  text-center bg-light-blue p-2 mb-4">
-          <h3 text-light text-center>Create Account </h3>
+          <h3 className='text-light text-center'>Create Account </h3>
           <form  method='POST' onSubmit={handleRegistration}>
             <div className="mb-3">
               <input type="text" className="form-control " 

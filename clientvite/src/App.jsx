@@ -7,7 +7,8 @@ import Header from './components/Header'
 import Main from './components/Main'
 import Footer from './components/Footer'
 import UserRegistration from './components/UserRegistration'
-import Login from './components/login'
+import Login from './components/Login'
+import AuthProvider from './AuthProvider'
 
 
 
@@ -19,19 +20,20 @@ function App() {
 
   return (
     <>
-    <BrowserRouter>
-      <Header/>
-      <Routes>
-        <Route path='/' element={<Main/>} /> 
-        <Route path='/register/' element={<UserRegistration/>} /> 
+    <AuthProvider>
+      <BrowserRouter>
+        <Header/>
+        <Routes>
+          <Route path='/' element={<Main/>} /> 
+          <Route path='/register/' element={<UserRegistration/>} /> 
 
-        <Route path='/login/' element={<Login/>} /> 
+          <Route path='/login/' element={<Login/>} /> 
 
 
-      </Routes>
-      <Footer/>
-    </BrowserRouter>
-      
+        </Routes>
+        <Footer/>
+      </BrowserRouter>
+    </AuthProvider>  
  
     </>
   )

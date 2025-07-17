@@ -51,3 +51,8 @@ pip install django-filter
 
 
 pip install django-cors-headers
+
+-django rest framework - simple jwt
+pip install djangorestframework-simplejwt
+
+pip install djangorestframework-simplejwt[crypto]
