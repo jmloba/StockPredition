@@ -1,5 +1,5 @@
 import React from 'react'
-import ButtonLogin from './Button'
+import Button from './Button'
 import Header from './Header'
 import Footer from './Footer'
 
@@ -15,7 +15,7 @@ const Main = () => {
         <p className='text-center text-light lead'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis nobis repellat nostrum! Sed libero quia vitae veniam qui beatae facilis?</p>
 
 
-        <ButtonLogin text='Login' class='btn-outline-info'/>
+        <Button text='Explore' url="/dashboard" class='btn-outline-info'/>
       </div>
 
     </div>

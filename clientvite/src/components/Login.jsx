@@ -41,7 +41,7 @@ const Login = () => {
       console.log('\n***Refresh token is ->', localStorage.getItem('refreshToken'))
       console.log('Login Successful')
       setisLoggedIn(true)
-      navigate('/')
+      navigate('/dashboard')
 
 
 
@@ -90,12 +90,7 @@ const Login = () => {
                <button type='submit' className='btn btn-info d-block mx-auto'>Login</button>
 
             )
-
             }
-
-
-
-
           </form>
 
         </div>
