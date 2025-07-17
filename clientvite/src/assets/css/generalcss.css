@@ -11,10 +11,19 @@ min-height: 100vh;
   background-color: rgba(245, 241, 236, 0.311);
   border-radius: 10px;
 }
+.navbar{
+  height:10%;
+}
 .container{
   flex:1;
 }
 .myfooter{
   background-color: rgb(102, 60, 5);
   color :rgb(241, 232, 232)
+}
+.main-container{
+  background-color: aliceblue;
+  color :Blue;
+
+  
 }
